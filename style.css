@@ -10,7 +10,6 @@ body {
 
 header {
   text-align: left;
-  align-content: flex-start;
   margin-bottom: 2rem;
 }
 
@@ -21,13 +20,12 @@ li {
 
 ul.contact {
   display: flex;
-  flex-direction: row
+  justify-content: space-between;
 }
 
 
 li.conli {
   margin-bottom: 1rem;
-  margin-right: auto;
   font-weight: bold;
 }
 
@@ -46,14 +44,23 @@ h3 {
   letter-spacing: 3px;
 }
 
-.block {
-  margin-bottom: 3rem;
+.summary {
+  margin-bottom: 2rem;
 }
 
-/*.workcontainer {
+.block {
+  margin-bottom: 3rem;
+
+}
+
+.paddown {
+  padding-top: 2rem;
+}
+
+.workcontainer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(2, 1fr)
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(3, auto)
 }
 
 .grid-item1 {
@@ -64,11 +71,93 @@ h3 {
 .grid-item2 {
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
-} */
-
-.summary {
-  margin-bottom: 2rem;
 }
+
+.grid-item3 {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.grid-item4 {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.grid-item5 {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+.grid-item6 {
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.edcontainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(6, auto)
+}
+
+.ed-item1 {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.ed-item2 {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.ed-item3 {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.ed-item4 {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.ed-item5 {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.ed-item6 {
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.ed-item7 {
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.ed-item8 {
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.ed-item9 {
+  grid-column: 1 / span 1;
+  grid-row: 5 / span 1;
+}
+
+.ed-item10 {
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 1;
+}
+
+.ed-item11 {
+  grid-column: 1 / span 1;
+  grid-row: 6 / span 1;
+}
+
+.ed-item12 {
+  grid-column: 2 / span 1;
+  grid-row: 6 / span 1;
+}
+
 
 .languages {
   text-align: center
