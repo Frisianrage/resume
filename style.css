@@ -27,6 +27,7 @@ ul.contact {
 li.conli {
   margin-bottom: 1rem;
   font-weight: bold;
+  letter-spacing: 2px
 }
 
 p {
@@ -37,6 +38,10 @@ p {
 hr {
   color: grey;
   margin-bottom: 1rem;
+}
+
+h1 {
+  letter-spacing: 2px
 }
 
 h3 {
